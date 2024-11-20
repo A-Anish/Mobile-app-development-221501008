@@ -103,6 +103,44 @@ This project contains multiple experiments focused on different aspects of mobil
   - **Handling Errors and Edge Cases**: Implement robust error handling to manage issues like unrecognized speech or API failures.
   - **User Experience Design**: Ensure that the integration of TTS and STT is seamless and intuitive for users, providing clear instructions and feedback.
 
+### 7. Traffic Sign Detection
+
+**Description**: This feature uses Machine Learning to detect and recognize traffic signs from images captured via the app.  
+- **TensorFlow Lite Integration**: The app uses a pre-trained TensorFlow Lite model optimized for mobile devices.  
+- **Real-time Detection**: Users can capture a photo of a traffic sign, and the app predicts the sign with high accuracy.  
+- **User-Friendly Interface**: Displays detected sign name and details in an intuitive format.  
+
+**Usage**:  
+1. Open the "Traffic Sign Detection" feature from the main menu.  
+2. Use the camera to capture a photo of the traffic sign.  
+3. View the recognized sign and details displayed on the screen.  
+
+### 8. Face Detection
+
+**Description**: This feature uses advanced computer vision techniques to detect human faces from images or a live camera feed.  
+- **MediaPipe Integration**: Leverages MediaPipe for accurate and efficient face detection.  
+- **Real-time Processing**: Detects faces in real-time, making it suitable for a variety of applications.  
+- **Applications**: Can be extended to implement facial recognition, emotion detection, or augmented reality.  
+
+**Usage**:  
+1. Navigate to the "Face Detection" feature in the app.  
+2. Allow the app to access the camera.  
+3. Point the camera at a face, and the app will highlight detected faces in the viewfinder.  
+
+### 9. Barcode Scanner
+
+**Description**: A fast and reliable barcode scanning feature to read and decode barcodes.  
+- **Multi-format Support**: Supports various barcode formats, including QR codes, UPC, and EAN.  
+- **Offline Capability**: Works seamlessly without an internet connection.  
+- **Integration**: Useful for inventory management, product details retrieval, or payment systems.  
+
+**Usage**:  
+1. Open the "Barcode Scanner" feature in the app.  
+2. Align the barcode within the scanning frame.  
+3. The app will automatically detect and decode the barcode, displaying the associated information.
+
+
+
 ## Installation
 
 1. **Clone this repository**:
